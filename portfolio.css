@@ -1,0 +1,71 @@
+/* CSS reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+    margin:0;
+    padding:0;
+}
+html,body {
+    margin:0;
+    padding:0;
+}
+
+nav 
+{
+    padding: 50px;
+    background-color:black;
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+li {
+    list-style-type: none;
+    display:inline-block;
+    padding: 20px;
+    }
+    
+    .list:hover 
+    {
+        color:greenyellow;
+        cursor: pointer;
+    }
+
+.heading
+    {
+    display: inline-block;
+    font-size: larger;
+    }
+
+.heading_name
+    {
+    color: white;
+    }
+
+.menu
+    {
+    float:right;
+    }
+
+.hero
+    {
+    text-align:center;
+    padding: 25px;
+    font-style: oblique;
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .button 
+    {
+        background-color:blue;
+        border: none;
+        color: white;
+        padding: 15px 30px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 15px;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
+    .pic{
+        background-image: cover;
+    }
